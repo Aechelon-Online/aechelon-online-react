@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.55bccbf7.css",
+    "main.js": "/build/static/js/main.4d4635f3.js",
+    "static/media/ae-orange-circle.png": "/build/static/media/ae-orange-circle.659ffde856d0bf80085b.png",
+    "index.html": "/build/index.html",
+    "main.55bccbf7.css.map": "/build/static/css/main.55bccbf7.css.map",
+    "main.4d4635f3.js.map": "/build/static/js/main.4d4635f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55bccbf7.css",
+    "static/js/main.4d4635f3.js"
+  ]
+}
