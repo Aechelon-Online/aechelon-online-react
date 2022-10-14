@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/aechelon-online-react/static/css/main.55bccbf7.css",
-    "main.js": "/aechelon-online-react/static/js/main.abb12485.js",
+    "main.css": "/aechelon-online-react/static/css/main.770c12dc.css",
+    "main.js": "/aechelon-online-react/static/js/main.fc04c014.js",
+    "static/media/acs-website-headshot.png": "/aechelon-online-react/static/media/acs-website-headshot.d64474acf7ffc1bf0f1d.png",
     "static/media/ae-orange-circle.png": "/aechelon-online-react/static/media/ae-orange-circle.659ffde856d0bf80085b.png",
     "index.html": "/aechelon-online-react/index.html",
-    "main.55bccbf7.css.map": "/aechelon-online-react/static/css/main.55bccbf7.css.map",
-    "main.abb12485.js.map": "/aechelon-online-react/static/js/main.abb12485.js.map"
+    "main.770c12dc.css.map": "/aechelon-online-react/static/css/main.770c12dc.css.map",
+    "main.fc04c014.js.map": "/aechelon-online-react/static/js/main.fc04c014.js.map"
   },
   "entrypoints": [
-    "static/css/main.55bccbf7.css",
-    "static/js/main.abb12485.js"
+    "static/css/main.770c12dc.css",
+    "static/js/main.fc04c014.js"
   ]
 }
