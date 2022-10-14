@@ -1,7 +1,4 @@
-h1 {
-    color: red;
-    text-align: center;
-}
+
 
 .navbar {
     display: flex;
@@ -10,12 +7,12 @@ h1 {
     position: absolute;
     height: 15vh;
     width: 100%;
-    z-index: 10;
+    z-index: 2;
     animation: fadeIn 3s ease-in forwards;
     animation-iteration-count: 1;
     font-family: Arial;
 
-    & a {
+    &__anchor--links a, &__anchor--links a:visited, &__anchor--links a:focus {
         text-decoration: none;
         color:white;
         font-family: 'Source Code Pro'; 

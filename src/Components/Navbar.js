@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className='menu-button'></div>
           </label> */}
           <ul className="navbar__front--links">
-            <li><Link to="build/bio">Bio</Link></li>
+            <li className="navbar__anchor--links"><Link to="build/bio">Bio</Link></li>
             <li className="navbar__anchor--links"><Link to="build/techstack">TechStack</Link></li>
             <li className="navbar__anchor--links"><Link to="build/contact">Contact</Link></li>
           </ul>
