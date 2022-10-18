@@ -6,7 +6,7 @@ export default function Portfolio() {
     return (
         <div className="portfolio">
           <img src={anatomyPic} alt="Technical website design demo" className="portfolio__design-img" />
-          <h1 className="portfolio__greeting titles"><a href="/techstack/index.html">TECHSTACK</a></h1>
+          <h1 className="portfolio__greeting titles"><a href="aechelon-online-react/build/techstack">TECHSTACK</a></h1>
         </div>
     )
 }

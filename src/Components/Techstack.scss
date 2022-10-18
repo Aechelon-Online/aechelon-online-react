@@ -1,0 +1,22 @@
+.techstack-page {
+    background: linear-gradient(black 0%, rgba(171, 157, 0, 0.708) 50%, black 100%);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 15vh;
+    }
+
+    &__design-img {
+        position: absolute;
+        background-size: cover;
+        opacity: 0.5;
+        z-index: -1;
+        width: clamp(800px, 100vw, 2000px);
+    }
+}

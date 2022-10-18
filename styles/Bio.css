@@ -38,7 +38,7 @@
   height: clamp(200px, 75vw, 600px);
   grid-column: 2/10;
   grid-row: 6/10;
-  margin-top: 5vh;
+  margin-top: 5vw;
 }
 .about__grid--bio-headshot-pic {
   background: url("../images/acs-website-headshot.png");
@@ -60,13 +60,13 @@
 }
 .about__grid--bio-description {
   background-color: rgba(17, 17, 17, 0);
-  margin-bottom: 50px;
+  margin-top: 5vw;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   color: white;
   grid-column: 4/12;
-  grid-row-start: 6;
+  grid-row-start: 4;
   font-size: clamp(0.8rem, 3.5vw, 1.5rem);
   text-align: justify;
   justify-self: start;

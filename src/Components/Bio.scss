@@ -36,10 +36,6 @@
         grid-template-columns: repeat(12, 1fr);
         justify-items: center;
 
-        // @include tablet {
-        //     grid-template-rows: repeat(12, 9vw);
-        // }
-
     
         &-headshot {
             opacity: 0.7;
@@ -47,7 +43,7 @@
             height: clamp(200px, 75vw, 600px);
             grid-column: 2 / 10;
             grid-row: 6 / 10;
-            margin-top: 5vh;
+            margin-top: 5vw;
 
             &-pic {
                 background: url("../images/acs-website-headshot.png");
@@ -72,12 +68,11 @@
 
         &-description {
             background-color: rgba(17, 17, 17, 0);
-
-            margin-bottom: 50px;
+            margin-top: 5vw;
             height: fit-content;
             color: white;
             grid-column: 4 / 12;
-            grid-row-start: 6;
+            grid-row-start: 4;
             font-size: clamp(0.8rem, 3.5vw, 1.5rem);
             text-align: justify;
             justify-self: start;
