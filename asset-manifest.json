@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.f6c8579d.css",
-    "main.js": "./static/js/main.0ddfe72d.js",
+    "main.css": "./static/css/main.2ec0626a.css",
+    "main.js": "./static/js/main.b5f5fb1e.js",
     "static/media/pro-handshake.jpeg": "./static/media/pro-handshake.446cbc0d7203febaae0a.jpeg",
-    "static/media/acs-website-headshot.png": "./static/media/acs-website-headshot.d64474acf7ffc1bf0f1d.png",
     "static/media/ae-orange-circle.png": "./static/media/ae-orange-circle.659ffde856d0bf80085b.png",
     "static/media/anatomy-website.jpg": "./static/media/anatomy-website.fc8987b2fe39248f8acb.jpg",
+    "static/media/acs-website-headshot.jpeg": "./static/media/acs-website-headshot.df63f771fcb326ff53ae.jpeg",
     "index.html": "./index.html",
-    "main.f6c8579d.css.map": "./static/css/main.f6c8579d.css.map",
-    "main.0ddfe72d.js.map": "./static/js/main.0ddfe72d.js.map"
+    "main.2ec0626a.css.map": "./static/css/main.2ec0626a.css.map",
+    "main.b5f5fb1e.js.map": "./static/js/main.b5f5fb1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c8579d.css",
-    "static/js/main.0ddfe72d.js"
+    "static/css/main.2ec0626a.css",
+    "static/js/main.b5f5fb1e.js"
   ]
 }
