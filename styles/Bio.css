@@ -1,12 +1,13 @@
-.about {
+.bio {
   background: linear-gradient(black 0%, rgba(0, 63, 171, 0.708) 50%, black 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
 }
-.about__headshot-img {
+.bio__headshot-img {
   position: fixed;
+  background-size: cover;
   background-position: center;
   opacity: 0.5;
   z-index: -1;
@@ -14,8 +15,9 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+  width: clamp(800px, 100vw, 2000px);
 }
-.about__greeting {
+.bio__greeting {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,14 +25,17 @@
   font-size: clamp(4rem, 12vw, 10rem);
   cursor: pointer;
 }
-.about__grid--bio {
+.bio__grid--bio {
   position: absolute;
   z-index: 1;
+  top: 0;
   left: 0;
-  height: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 100%;
 }
-.about__grid--bio-headshot {
+.bio__grid--bio-headshot {
   position: absolute;
   left: 10vw;
   top: 15vh;
@@ -40,8 +45,8 @@
   grid-column: 2/10;
   grid-row: 6/10;
 }
-.about__grid--bio-headshot-pic {
-  background: url("../images/acs-website-headshot.png");
+.bio__grid--bio-headshot-pic {
+  background: url("../images/acs-website-headshot.jpeg");
   width: 100%;
   height: 75%;
   box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.99);
@@ -50,7 +55,7 @@
   background-size: 100%;
   position: relative;
 }
-.about__grid--bio-headshot-pic__layer {
+.bio__grid--bio-headshot-pic__layer {
   background-color: rgba(0, 63, 171, 0.708);
   opacity: 0.15;
   position: absolute;
@@ -58,7 +63,7 @@
   width: 100%;
   height: 100%;
 }
-.about__grid--bio-description {
+.bio__grid--bio-description {
   position: absolute;
   background: rgba(17, 17, 17, 0.2);
   top: 50vh;
@@ -69,14 +74,14 @@
   height: -moz-fit-content;
   height: fit-content;
   color: white;
-  font-size: clamp(0.8rem, 3.5vw, 1.5rem);
+  font-size: clamp(0.8rem, 3vw, 1.5rem);
   text-align: justify;
   justify-self: start;
   align-self: start;
   z-index: 1;
   text-shadow: 1px 1px 2px black;
 }
-.about__grid--bio-description--tablet {
+.bio__grid--bio-description--tablet {
   position: absolute;
   background: rgba(17, 17, 17, 0.2);
   top: calc(30vw + 170px);
@@ -87,14 +92,14 @@
   height: -moz-fit-content;
   height: fit-content;
   color: white;
-  font-size: clamp(0.8rem, 3.5vw, 1.5rem);
+  font-size: clamp(0.8rem, 3vw, 1.5rem);
   text-align: justify;
   justify-self: start;
   align-self: start;
   z-index: 1;
   text-shadow: 1px 1px 2px black;
 }
-.about__grid--bio-description p {
+.bio__grid--bio-description p {
   opacity: 1;
   padding: 5px;
 }/*# sourceMappingURL=Bio.css.map */

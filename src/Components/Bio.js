@@ -9,33 +9,33 @@ import Media from 'react-media'
 export default function Bio() {
     return(
         <div className="container">
-            <div className="about">
-                <img src={require('../images/acs-website-headshot.png')} alt="Greg Luce headshot" className="about__headshot-img" />
+            <div className="bio">
+                <img src={require('../images/acs-website-headshot.jpeg')} alt="Greg Luce headshot" className="bio__headshot-img" />
                 <Media query="(min-width: 700px)">
                     {matches => {
                         return (matches ?
-                            <div className="about__grid--bio">
-                                <div className="about__grid--bio-headshot">
-                                    <div className="about__grid--bio-headshot-pic">
-                                        <div className="about__grid--bio-headshot-pic__layer">
+                            <div className="bio__grid--bio">
+                                <div className="bio__grid--bio-headshot">
+                                    <div className="bio__grid--bio-headshot-pic">
+                                        <div className="bio__grid--bio-headshot-pic__layer">
                                         </div>
                                     </div>
                                 </div>
-                                <div className="about__grid--bio-description">
+                                <div className="bio__grid--bio-description">
                                 <p><BioP1 /></p>
                                 <p><BioP2 /></p>
                                 <p><BioP3 /></p>
                                 </div>
                             </div> 
                             :
-                            <div className="about__grid--bio">
-                                <div className="about__grid--bio-headshot">
-                                    <div className="about__grid--bio-headshot-pic">
-                                        <div className="about__grid--bio-headshot-pic__layer">
+                            <div className="bio__grid--bio">
+                                <div className="bio__grid--bio-headshot">
+                                    <div className="bio__grid--bio-headshot-pic">
+                                        <div className="bio__grid--bio-headshot-pic__layer">
                                         </div>
                                     </div>
                                 </div>
-                                <div className="about__grid--bio-description--tablet">
+                                <div className="bio__grid--bio-description--tablet">
                                 <p><BioP1 /></p>
                                 <p><BioP2 /></p>
                                 <p><BioP3 /></p>
