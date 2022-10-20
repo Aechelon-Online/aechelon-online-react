@@ -33,7 +33,7 @@
 .about__grid--bio-headshot {
   position: absolute;
   left: 10vw;
-  top: 25vh;
+  top: 15vh;
   opacity: 0.7;
   width: clamp(250px, 75vw, 600px);
   height: clamp(250px, 75vw, 600px);
@@ -61,7 +61,7 @@
 .about__grid--bio-description {
   position: absolute;
   background: rgba(17, 17, 17, 0.2);
-  top: 60vh;
+  top: 50vh;
   right: 5vw;
   padding: 0 5vw;
   width: 60%;
@@ -79,7 +79,7 @@
 .about__grid--bio-description--tablet {
   position: absolute;
   background: rgba(17, 17, 17, 0.2);
-  top: calc(40vw + 170px);
+  top: calc(30vw + 170px);
   right: 5vw;
   padding: 0 5vw;
   width: 60%;

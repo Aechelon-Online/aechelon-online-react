@@ -18,7 +18,7 @@ export default function Techstack() {
     return (
         <div className="container">
             <div className="techstack-page">
-                <img src={require('../images/anatomy-website.jpg')} alt="Technical website design demo" class="techstack-page__design-img" />
+                <img src={require('../images/anatomy-website.jpg')} alt="Technical website design demo" className="techstack-page__design-img" />
                 <div className="techstack-page__box">
                     {labels}
                 </div>

@@ -42,8 +42,6 @@ export default function Bio() {
                                 </div>
                             </div>
                         )
-                     
-
                     }}
                 </Media>
             </div>
