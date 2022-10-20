@@ -11,14 +11,14 @@ export default function Bio() {
         <div className="container">
             <div className="about">
                 <img src={headShot} alt="Greg Luce headshot" className="about__headshot-img" />
-                <div class="about__grid--bio">
-                    <div class="about__grid--bio-headshot">
-                        <div class="about__grid--bio-headshot-pic">
-                            <div class="about__grid--bio-headshot-pic__layer">
+                <div className="about__grid--bio">
+                    <div className="about__grid--bio-headshot">
+                        <div className="about__grid--bio-headshot-pic">
+                            <div className="about__grid--bio-headshot-pic__layer">
                             </div>
                         </div>
                     </div>
-                    <div class="about__grid--bio-description">
+                    <div className="about__grid--bio-description">
                     <p><BioP1 /></p>
                     <p><BioP2 /></p>
                     <p><BioP3 /></p>
