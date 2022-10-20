@@ -21,17 +21,17 @@ export default function NavHamburger() {
             <Drop 
                 isDown={menuOpen} 
                 className="navbar__anchor--links">
-                <Link to="aechelon-online-react/build/bio">Bio</Link>
+                <Link to="build/bio">Bio</Link>
             </Drop>
             <Drop 
                 isDown={menuOpen}
                 className="navbar__anchor--links">
-                <Link to="aechelon-online-react/build/techstack">TechStack</Link>
+                <Link to="build/techstack">TechStack</Link>
             </Drop>
             <Drop 
                 isDown={menuOpen}
                 className="navbar__anchor--links">
-                <Link to="aechelon-online-react/build/contact">Contact</Link>
+                <Link to="build/contact">Contact</Link>
             </Drop>
         </div>
        

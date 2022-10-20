@@ -1,6 +1,6 @@
 {
-  "name": "aechelon-online-react",
-  "homepage": "https://aechelon-online.github.io/aechelon-online-react/",
+  "name": "aechelon-online",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

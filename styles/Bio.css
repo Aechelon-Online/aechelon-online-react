@@ -1,12 +1,12 @@
 .about {
   background: linear-gradient(black 0%, rgba(0, 63, 171, 0.708) 50%, black 100%);
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 .about__headshot-img {
+  position: fixed;
   background-position: center;
   opacity: 0.5;
   z-index: -1;
@@ -25,20 +25,20 @@
 }
 .about__grid--bio {
   position: absolute;
+  z-index: 1;
+  left: 0;
   height: 100%;
   width: 100%;
-  display: grid;
-  grid-template-rows: repeat(12, 1fr);
-  grid-template-columns: repeat(12, 1fr);
-  justify-items: center;
 }
 .about__grid--bio-headshot {
+  position: absolute;
+  left: 10vw;
+  top: 25vh;
   opacity: 0.7;
   width: clamp(250px, 75vw, 600px);
-  height: clamp(200px, 75vw, 600px);
+  height: clamp(250px, 75vw, 600px);
   grid-column: 2/10;
   grid-row: 6/10;
-  margin-top: 5vw;
 }
 .about__grid--bio-headshot-pic {
   background: url("../images/acs-website-headshot.png");
@@ -59,14 +59,34 @@
   height: 100%;
 }
 .about__grid--bio-description {
-  background-color: rgba(17, 17, 17, 0);
-  margin-top: 5vw;
+  position: absolute;
+  background: rgba(17, 17, 17, 0.2);
+  top: 60vh;
+  right: 5vw;
+  padding: 0 5vw;
+  width: 60%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   color: white;
-  grid-column: 4/12;
-  grid-row-start: 4;
+  font-size: clamp(0.8rem, 3.5vw, 1.5rem);
+  text-align: justify;
+  justify-self: start;
+  align-self: start;
+  z-index: 1;
+  text-shadow: 1px 1px 2px black;
+}
+.about__grid--bio-description--tablet {
+  position: absolute;
+  background: rgba(17, 17, 17, 0.2);
+  top: calc(40vw + 170px);
+  right: 5vw;
+  padding: 0 5vw;
+  width: 60%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
   font-size: clamp(0.8rem, 3.5vw, 1.5rem);
   text-align: justify;
   justify-self: start;

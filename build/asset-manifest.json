@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/aechelon-online-react/static/css/main.b6adac5f.css",
-    "main.js": "/aechelon-online-react/static/js/main.4ab79213.js",
-    "static/media/pro-handshake.jpeg": "/aechelon-online-react/static/media/pro-handshake.446cbc0d7203febaae0a.jpeg",
-    "static/media/acs-website-headshot.png": "/aechelon-online-react/static/media/acs-website-headshot.d64474acf7ffc1bf0f1d.png",
-    "static/media/ae-orange-circle.png": "/aechelon-online-react/static/media/ae-orange-circle.659ffde856d0bf80085b.png",
-    "static/media/anatomy-website.jpg": "/aechelon-online-react/static/media/anatomy-website.fc8987b2fe39248f8acb.jpg",
-    "index.html": "/aechelon-online-react/index.html",
-    "main.b6adac5f.css.map": "/aechelon-online-react/static/css/main.b6adac5f.css.map",
-    "main.4ab79213.js.map": "/aechelon-online-react/static/js/main.4ab79213.js.map"
+    "main.css": "./static/css/main.5e6817b0.css",
+    "main.js": "./static/js/main.fde3b653.js",
+    "static/media/pro-handshake.jpeg": "./static/media/pro-handshake.446cbc0d7203febaae0a.jpeg",
+    "static/media/acs-website-headshot.png": "./static/media/acs-website-headshot.d64474acf7ffc1bf0f1d.png",
+    "static/media/ae-orange-circle.png": "./static/media/ae-orange-circle.659ffde856d0bf80085b.png",
+    "static/media/anatomy-website.jpg": "./static/media/anatomy-website.fc8987b2fe39248f8acb.jpg",
+    "index.html": "./index.html",
+    "main.5e6817b0.css.map": "./static/css/main.5e6817b0.css.map",
+    "main.fde3b653.js.map": "./static/js/main.fde3b653.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6adac5f.css",
-    "static/js/main.4ab79213.js"
+    "static/css/main.5e6817b0.css",
+    "static/js/main.fde3b653.js"
   ]
 }

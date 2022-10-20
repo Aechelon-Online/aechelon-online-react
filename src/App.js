@@ -19,10 +19,10 @@ export default function App() {
         <div className="App">
             <Navbar />
             <Routes>
-                <Route exact path="aechelon-online-react" element={<Container />} />
-                <Route exact path="aechelon-online-react/build/bio" element={<Bio />} />
-                <Route exact path="aechelon-online-react/build/techstack" element={<Techstack />} />
-                <Route exact path="aechelon-online-react/build/contact" element={<Contact />} />
+                <Route exact path="/" element={<Container />} />
+                <Route exact path="/bio" element={<Bio />} />
+                <Route exact path="/techstack" element={<Techstack />} />
+                <Route exact path="/contact" element={<Contact />} />
             </Routes>
         </div>
     )

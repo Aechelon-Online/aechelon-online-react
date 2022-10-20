@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="navbar__front">
         <div className="navbar__front--brand">
           <div className="navbar__front--img">
-            <Link to="aechelon-online-react" ><img src={require(`../images/ae-orange-circle.png`)} alt="Aechelon Online Logo in Circle" className="navbar__front--img-logo" />
+            <Link to="/" ><img src={require(`../images/ae-orange-circle.png`)} alt="Aechelon Online Logo in Circle" className="navbar__front--img-logo" />
             </Link>
           </div>
           <div className="navbar__front--title">Æchelon Online</div>
@@ -22,9 +22,9 @@ export default function Navbar() {
             {matches => {
               return (matches ? 
                 <ul className="navbar__front--links">
-                  <li className="navbar__anchor--links"><Link to="aechelon-online-react/build/bio">Bio</Link></li>
-                  <li className="navbar__anchor--links"><Link to="aechelon-online-react/build/techstack">TechStack</Link></li>
-                  <li className="navbar__anchor--links"><Link to="aechelon-online-react/build/contact">Contact</Link></li>
+                  <li className="navbar__anchor--links"><Link to="/bio">Bio</Link></li>
+                  <li className="navbar__anchor--links"><Link to="/techstack">TechStack</Link></li>
+                  <li className="navbar__anchor--links"><Link to="/contact">Contact</Link></li>
                 </ul>
                 : <NavHamburger />
               )
