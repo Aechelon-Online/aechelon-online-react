@@ -1,5 +1,5 @@
 .bio {
-    background: linear-gradient(black 0%, rgba(0, 63, 171, 0.708) 50%, black 100%);
+    background: linear-gradient(black 0%, rgba(60, 130, 250, 0.708) 50%, black 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +59,7 @@
                 position: relative;
 
                 &__layer {
-                    background-color: rgba(0, 63, 171, 0.708);
-                    opacity: 0.15;
+                    background-color: rgba(61, 177, 255, 0.102);
                     position: absolute;
                     z-index: 10;
                     width: 100%;
