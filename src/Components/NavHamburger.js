@@ -78,15 +78,26 @@ const Toggle = styled.div`
 `
 
 const Drop = styled.li`
+    --li-height: 5vh;
+    --li-font-size: 1.2rem;
+    --li-padding: 0.5em;
+    --li-border: 1px solid #333;
+    --li-move: 400ms cubic-bezier(0.23, 1, 0.32, 1);
+
     position: relative;
     text-align: center;
     background: #222;
     top: 15vh;
-    height: ${(props) => (props.isDown) ? '5vh' : '0'};
-    font-size: ${(props) => (props.isDown) ? '1.2rem' : '0'};
+    height: ${(props) => (props.isDown) ? 'var(--li-height)' : '0'};
+    font-size: ${(props) => (props.isDown) ? 'var(--li-font-size)' : '0'};
     align-items: center;
     width: 120px;
-    padding: ${(props) => (props.isDown) ? '0.5em' : '0'};
-    border: ${(props) => (props.isDown) ? '1px solid #333' : '0'};
-    transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    padding: ${(props) => (props.isDown) ? 'var(--li-padding)' : '0'};
+    border: ${(props) => (props.isDown) ? 'var(--li-border)' : '0'};
+    transition-property: height, font-size, padding, border;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition-property: height, font-size, padding, border;
+    -webkit-transition-duration: 400ms, 0ms, 400ms, 400ms;
+    -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 `

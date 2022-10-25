@@ -5,16 +5,24 @@ import styled from 'styled-components'
 export default function Card(props) {
     return (
         <div className={`techstack-page__flexbox-${props.id} techstack-flexbox`}>
-            <Scaled className="techstack-page__flexbox-text">{props.title}</Scaled>
+            <Scaled className="techstack-page__flexbox-text">
+                <a target="_blank" href={props.url}>
+                    {props.title}
+                </a>
+            </Scaled>
         </div>
     )
 }
 
 const Scaled = styled.h3`
-    color: white;
+    
     font-size: clamp(1.5rem, 10vw, 4rem);
     margin: 2vh 0;
     font-family: Lato, sans-serif;
+
+    & a {
+        color: white;
+    }
     
 
     &:hover {

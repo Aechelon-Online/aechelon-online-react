@@ -1,26 +1,37 @@
 export default [
     {
         id: 1,
-        title: "React"
+        title: "React",
+        url: "https://github.com/Aechelon-Online/aechelon-online-react/tree/master"
     },
     {
         id: 2,
-        title: "ECM6(JS)"
+        title: "API",
+        url: "https://github.com/Aechelon-Online/calendar-api"
     },
     {
         id: 3,
-        title: "SCSS"
+        title: "ES6(JS)",
+        url: "https://github.com/Aechelon-Online/github-repo-gallery/tree/main/js"
     },
     {
         id: 4,
-        title: "BootStrap"
+        title: "SCSS",
+        url: "https://github.com/Aechelon-Online/aechelon-online-react/tree/master/styles"
     },
     {
         id: 5,
-        title: "HTML"
+        title: "BootStrap",
+        url: "https://github.com/Aechelon-Online/glm-for-wordpress/blob/main/index.html"
     },
     {
         id: 6,
-        title: "CSS"
+        title: "HTML",
+        url: "https://github.com/Aechelon-Online/aechelon-online-redo/blob/main/index.html"
+    },
+    {
+        id: 7,
+        title: "CSS",
+        url: "https://github.com/Aechelon-Online/front-page-four/blob/main/styles.css"
     }
 ]
