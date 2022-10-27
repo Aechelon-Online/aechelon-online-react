@@ -20,7 +20,7 @@ export default [
     {
         id: 4,
         title: "SCSS",
-        demo: "https://aechelon-online.github.io/techstack",
+        demo: "https://aechelon.online/techstack",
         code: "https://github.com/Aechelon-Online/aechelon-online-react/tree/master/styles"
     },
     {
