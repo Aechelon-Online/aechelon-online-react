@@ -2,7 +2,7 @@
     background: linear-gradient(black 0%, rgba(171, 157, 0, 0.708) 50%, black 100%);
     position: relative;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 
     &__box {
         display: flex;
