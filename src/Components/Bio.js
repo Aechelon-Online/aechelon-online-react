@@ -10,7 +10,7 @@ export default function Bio() {
     return(
         <div className="container">
             <div className="bio">
-                <img src={require('../images/acs-website-headshot.jpeg')} alt="Greg Luce headshot" className="bio__headshot-img" />
+                <img src={require('../images/acs-website-headshot.webp')} alt="Greg Luce headshot" className="bio__headshot-img" />
                 <Media query="(min-width: 700px)">
                     {matches => {
                         return (matches ?
