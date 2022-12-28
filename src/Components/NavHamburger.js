@@ -81,7 +81,6 @@ const Drop = styled.li`
     --li-height: 5vh;
     --li-font-size: 1.2rem;
     --li-padding: 0.5em;
-    --li-border: 1px solid #333;
     --li-move: 400ms cubic-bezier(0.23, 1, 0.32, 1);
 
     position: relative;

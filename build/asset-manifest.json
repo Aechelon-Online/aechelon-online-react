@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.ff5ecc11.css",
-    "main.js": "./static/js/main.889a89dd.js",
-    "static/media/ae-orange-circle.png": "./static/media/ae-orange-circle.659ffde856d0bf80085b.png",
-    "static/media/anatomy-website.jpg": "./static/media/anatomy-website.fc8987b2fe39248f8acb.jpg",
-    "static/media/pro-handshake-2.jpeg": "./static/media/pro-handshake-2.ba107c9a935ff35d7793.jpeg",
+    "main.css": "./static/css/main.5854c747.css",
+    "main.js": "./static/js/main.b357a6a3.js",
+    "static/media/ae-orange-circle.webp": "./static/media/ae-orange-circle.400b9737611f19fe7d18.webp",
+    "static/media/anatomy-website.webp": "./static/media/anatomy-website.320429c8140f651ea2fe.webp",
     "static/media/acs-website-headshot.jpeg": "./static/media/acs-website-headshot.df63f771fcb326ff53ae.jpeg",
+    "static/media/acs-website-headshot.webp": "./static/media/acs-website-headshot.9ba82581a2fd80530962.webp",
+    "static/media/pro-handshake-2.webp": "./static/media/pro-handshake-2.5fd846a6f08a94f55c31.webp",
     "index.html": "./index.html",
-    "main.ff5ecc11.css.map": "./static/css/main.ff5ecc11.css.map",
-    "main.889a89dd.js.map": "./static/js/main.889a89dd.js.map"
+    "main.5854c747.css.map": "./static/css/main.5854c747.css.map",
+    "main.b357a6a3.js.map": "./static/js/main.b357a6a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff5ecc11.css",
-    "static/js/main.889a89dd.js"
+    "static/css/main.5854c747.css",
+    "static/js/main.b357a6a3.js"
   ]
 }

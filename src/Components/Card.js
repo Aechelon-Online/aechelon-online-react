@@ -47,9 +47,9 @@ const Scaled = styled.h3`
 const DemoButton = styled.button`
     
     cursor: pointer;
-    background: red;
+    background: rgba(0, 216, 180, 0.908);
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-right: 5px;
     width: fit-content;
     height: fit-content;
@@ -60,9 +60,9 @@ const DemoButton = styled.button`
 const CodeButton = styled.button`
     
     cursor: pointer;
-    background: blue;
+    background: rgba(0, 216, 180, 0.908);
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-left: 5px;
     width: fit-content;
     height: fit-content;
